@@ -1,0 +1,24 @@
+name: model-athena-console
+version: 0.1.0
+
+authors:
+  - tamdaz <tamda.zohir.pro@gmail.com>
+
+targets:
+  console:
+    main: src/console.cr
+
+dependencies:
+  athena-spec:
+    github: athena-framework/spec
+    version: ~> 0.4.0
+  athena-console:
+    github: athena-framework/console
+    version: ~> 0.4.0
+  athena-dependency_injection:
+    github: athena-framework/dependency-injection
+    version: ~> 0.4.0
+
+crystal: '>= 1.19.0'
+
+license: MIT

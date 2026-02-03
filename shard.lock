@@ -1,0 +1,18 @@
+version: 2.0
+shards:
+  athena-clock:
+    git: https://github.com/athena-framework/clock.git
+    version: 0.2.0
+
+  athena-console:
+    git: https://github.com/athena-framework/console.git
+    version: 0.4.2
+
+  athena-dependency_injection:
+    git: https://github.com/athena-framework/dependency-injection.git
+    version: 0.4.4
+
+  athena-spec:
+    git: https://github.com/athena-framework/spec.git
+    version: 0.4.1
+
